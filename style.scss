@@ -206,4 +206,69 @@ p {
     font-size: 20px;
     font-weight: 100;
 }
-
+.post__table {
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: #dee2e6;
+    caption-side: bottom;
+    color: #212529;
+    width: 100%;
+    margin-bottom: 1px;
+    vertical-align: top;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.navbutton__old {
+    background-color: #dee2e6;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    border-color: #0d6efd;
+    border-width: 1px;
+    color: #0d6efd;
+}
+.navbutton__nevr {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    border-color: #6c757d;
+    color: #6c757d;
+    border-width: 1px;
+}
+.details {
+    padding-right: 0px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.about {
+    border-radius: 0.25rem;
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    padding-right: 80px;
+    background-size: 100px;
+}
+.about__head {
+    font-style: italic;
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.archieve__list {
+    list-style: none;
+    line-height: 25px;
+    text-align: start;
+    padding-left: 0px;
+}
