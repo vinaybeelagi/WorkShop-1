@@ -40,24 +40,24 @@ body {
 	border-radius: 7px;
 	width: 100%;
 	margin: auto;
-}
-.banner__content {
+&__content {
 	width: 50%;
 	padding: 20px;
 	margin: 20px 0;
 }
-.banner__title {
+&__title {
 	font-family: $font-family_2;
 	font-size: 50px;
 	font-weight: bold;
 	font-style: italic;
 	line-height: 60px;
 }
-.banner__paragraph {
+&__paragraph {
 	font-family: $font-family_3;
 	font-style: normal;
 	font-size: 17px;
 	font-weight: normal;
+}
 }
 p {
 	display: block;
@@ -139,18 +139,21 @@ justify-content: space-between;
 .card {
     width: 100%;
     padding: 20px;
-}
-.card__head1 {
+&__head1 {
     color: #0d6efd;
 }
-.card__title {
+&__title {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-style: initial;
     font-size: 20px;
     line-height: 1px;
 }
-.card__date {
+&__date {
     color: #6c757d;
+}
+&__head2 {
+    color: #198754;
+}
 }
 p {
     margin-top: 0;
@@ -168,9 +171,7 @@ a:-webkit-any-link {
     text-align: center;
     border-radius: 0px 10px 10px 0;
 }
-.card__head2 {
-    color: #198754;
-}
+
 .body {
     display: flex;
 }
@@ -223,6 +224,12 @@ thead {
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
 }
 
 tr {
