@@ -224,6 +224,7 @@ thead {
     vertical-align: middle;
     border-color: inherit;
 }
+
 tr {
     display: table-row;
     vertical-align: inherit;
@@ -271,4 +272,11 @@ tr {
     line-height: 25px;
     text-align: start;
     padding-left: 0px;
+}
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 0.05rem solid #e5e5e5;
 }
