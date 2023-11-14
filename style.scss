@@ -1,0 +1,114 @@
+$color_1: white;
+$color_2: #212529;
+$color_3: #6c757d;
+$font-family_1: sans-serif;
+$font-family_2: "Playfair Display", Georgia, "Times New Roman", serif;
+$font-family_3: var(--bs-font-sans-serif);
+$font-family_4: 'Times New Roman', Times, serif;
+$background-color_1: #fff;
+$background-color_2: #212529;
+$background-color_3: white;
+
+body {
+	margin: auto;
+	font-size: 1rem;
+	font-family: $font-family_1;
+	font-weight: 400;
+	background-color: $background-color_1;
+	box-sizing: border-box;
+	text-size-adjust: 100%;
+	scrollbar-highlight-color: transparent;
+	line-height: 1.5;
+	margin-top: 0%;
+	padding-left: 0px;
+	padding-right: 0px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 100%;
+	overflow-x: hidden;
+}
+.container {
+	width: 85%;
+	margin: auto;
+	width: 85%;
+	margin: auto;
+}
+.banner {
+	background-color: $background-color_2;
+	color: $color_1;
+	text-align: start;
+	border-radius: 7px;
+	width: 100%;
+	margin: auto;
+}
+.banner__content {
+	width: 50%;
+	padding: 20px;
+	margin: 20px 0;
+}
+.banner__title {
+	font-family: $font-family_2;
+	font-size: 50px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 60px;
+}
+.banner__paragraph {
+	font-family: $font-family_3;
+	font-style: normal;
+	font-size: 17px;
+	font-weight: normal;
+}
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+.banner__continue {
+	font-weight: bold;
+	color: $color_1;
+	text-decoration: underline;
+}
+.blog__heading {
+	text-decoration: underline;
+	text-align: center;
+	font-family: $font-family_4;
+	color: $color_2;
+	font-size: 2.25rem;
+}
+.link {
+	color: $color_3;
+	box-sizing: border-box;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.blog__searchsignup {
+	display: flex;
+	flex-direction: row;
+}
+.link1 {
+	padding-right: 20px;
+	color: $color_3;
+}
+.blog__signup {
+	border-radius: 0.3rem;
+	padding: 7px;
+	font-size: .896rem;
+	color: $color_3;
+	background-color: $background-color_3;
+	border-width: 0.1rem;
+	padding-right: 10px;
+}
+.nav__navigation {
+	display: flex;
+	justify-content: space-between;
+}
+.head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
