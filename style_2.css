@@ -1,0 +1,32 @@
+p {
+  color: green;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 38px;
+  color: green;
+}
+
+h3 {
+  color: green;
+}
+
+#container {
+  width: 680px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: aqua;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}/*# sourceMappingURL=style_2.css.map */
